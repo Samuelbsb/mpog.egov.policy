@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layers>
+  <layer
+      name="mpog.egov.policy"
+      interface="mpog.egov.policy.interfaces.IMpogEgovPolicyLayer"
+      />
+</layers>

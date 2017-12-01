@@ -1,0 +1,35 @@
+<registry>
+  <record name="plone.app.theming.interfaces.IThemeSettings.absolutePrefix" interface="plone.app.theming.interfaces.IThemeSettings" field="absolutePrefix">
+    <field type="plone.registry.field.TextLine">
+      <description>convert_relative_url</description>
+      <required>False</required>
+      <title>absolute_url_prefix</title>
+    </field>
+    <value>/++theme++branco</value>
+  </record>
+
+  <record name="plone.app.theming.interfaces.IThemeSettings.currentTheme" interface="plone.app.theming.interfaces.IThemeSettings" field="currentTheme">
+    <field type="plone.registry.field.TextLine">
+      <description>current_theme_description</description>
+      <title>current_theme</title>
+    </field>
+    <value>branco</value>
+  </record>
+
+  <record name="plone.app.theming.interfaces.IThemeSettings.rules" interface="plone.app.theming.interfaces.IThemeSettings" field="rules">
+    <field type="plone.registry.field.TextLine">
+      <description>rules_file_path</description>
+      <required>False</required>
+      <title>rules_file</title>
+    </field>
+    <value>/++theme++branco/rules.xml</value>
+  </record>
+
+  <record name="collective.cover.controlpanel.ICoverSettings.styles" interface="collective.cover.controlpanel.ICoverSettings" field="styles">
+    <value purge="false">
+       <element>GovBR: Azul|govbr-azul</element>
+       <element>GovBR: Verde|govbr-verde</element>
+       <element>GovBR: Amarelo|govbr-amarelo</element>
+    </value>
+  </record>
+</registry>

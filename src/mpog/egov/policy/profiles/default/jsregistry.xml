@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<object name="portal_javascripts" meta_type="JavaScripts Registry">
+
+      <javascript id="++resource++mpog.egov.policy/js/easy_ajax.js"
+      cacheable="True" compression="none" cookable="True" enabled="True"
+      expression="" inline="False" authenticated="False" insert-after="*" />
+
+</object>

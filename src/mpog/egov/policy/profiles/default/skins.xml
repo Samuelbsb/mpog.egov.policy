@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<object name="portal_skins" meta_type="Plone Skins Tool">
+ <object name="mpog_egov" meta_type="Filesystem Directory View"
+         directory="mpog.egov.policy:skins/mpog_egov"/>
+  <skin-path name="*">
+    <layer name="mpog_egov" insert-after="custom"/>
+  </skin-path>
+</object>

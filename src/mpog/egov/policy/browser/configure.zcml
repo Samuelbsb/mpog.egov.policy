@@ -1,0 +1,39 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="mpog.egov.policy">
+
+  <!-- Set overrides folder for Just-a-Bunch-Of-Templates product -->
+  <include package="z3c.jbot" file="meta.zcml" />
+  <browser:jbot
+      directory="overrides"
+      layer="mpog.egov.policy.interfaces.IMpogEgovPolicyLayer"
+      />
+
+  <!-- Publish static files -->
+  <browser:resourceDirectory
+      name="mpog.egov.policy"
+      directory="static"
+      />
+
+  <browser:page
+      name="event_summary_view"
+      for="plone.app.contenttypes.interfaces.IFolder"
+      layer="mpog.egov.policy.interfaces.IMpogEgovPolicyLayer"
+      template="templates/event_summary_view.pt"
+      permission="zope2.View"
+      menu="plone_displayviews"
+      title="Event Summary view"
+      />
+
+  <browser:menuItem
+      for="plone.app.contenttypes.interfaces.IFolder"
+      menu="plone_displayviews"
+      title="Eventos summary view"
+      action="@@event_summary_view"
+      description="Lista os eventos da pasta na visão sumaria assim como as noticias"
+      />
+
+
+</configure>

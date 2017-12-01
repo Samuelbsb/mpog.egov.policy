@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<site>
+ <property name="title">Bem - vindo ao Governo Eletrônico Brasileiro</property>
+ <property name="description"></property>
+ 
+ <property name="title_1" type="string"></property>
+ <property name="title_2" type="string">Governo Eletrônico</property>
+ <property name="orgao" type="string"></property>
+</site>

@@ -1,0 +1,272 @@
+/* view: event_summary_view */
+
+.list-central .item-central{
+	min-height: 57px;
+}
+
+.item-central .link-central{
+	padding: 4px 0 0px 50px !important;
+    line-height: normal !important;
+}
+
+.template-summary_view #content-core, .template-event_summary_view #content-core, .template-facetednavigation_view #content-core {
+    margin-top: 40px;
+}
+.template-summary_view #content h1.documentFirstHeading, .template-event_summary_view #content h1.documentFirstHeading, .template-facetednavigation_view #content h1.documentFirstHeading {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color #d9dbda;
+    border-image: none;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    color: #2c66ce;
+    font-family: "open_sansbold",Arial,Helvetica,sans-serif;
+    font-size: 2.25em;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 0.85em 0 5px;
+    padding: 0 0 0.7em;
+    text-transform: uppercase;
+}
+.template-summary_view #content .tileItem, .template-event_summary_view #content .tileItem, .template-facetednavigation_view #content .tileItem {
+    border-bottom: 1px solid #d7dbda;
+    clear: both;
+    font-size: 1em;
+    margin: 0;
+    overflow: hidden;
+    padding: 2em 0 2em 7.5em;
+    position: relative;
+}
+.template-summary_view #content .tileItem:first-child, .template-event_summary_view #content .tileItem:first-child, .template-facetednavigation_view #content .tileItem:first-child {
+    padding-top: 0;
+}
+.template-summary_view #content .tileContent, .template-event_summary_view #content .tileContent, .template-facetednavigation_view #content .tileContent {
+    border-left: 1px dotted #d6d6d6;
+    min-height: 75px;
+    overflow: hidden;
+    padding-left: 1.8em;
+}
+.template-summary_view #content .tileImage, .template-event_summary_view #content .tileImage, .template-facetednavigation_view #content .tileImage {
+    float: none;
+    margin: 0 1em 0.5em 0;
+}
+.template-summary_view #content .tileImage img, .template-event_summary_view #content .tileImage img, .template-facetednavigation_view #content .tileImage img {
+    float: left;
+}
+.template-summary_view #content .tileItem .subtitle, .template-event_summary_view #content .tileItem .subtitle, .template-facetednavigation_view #content .tileItem .subtitle {
+    display: block;
+    font-family: "open_sansregular",Arial,Helvetica,sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0 0 0.6em;
+    padding: 0;
+}
+
+.description2{
+    display: block !improtant;
+    margin: 0 0 0.6em !important;
+    border: 0px !important;
+    padding: 0px !important;
+    color: #172938;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.template-summary_view #content .tileItem .tileHeadline, .template-event_summary_view #content .tileItem .tileHeadline, .template-facetednavigation_view #content .tileItem .tileHeadline {
+    color: #172938;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 0 0 0.438em;
+    padding: 0;
+}
+.template-summary_view #content .tileItem .tileHeadline a, .template-event_summary_view #content .tileItem .tileHeadline a, .template-summary_view #content .tileItem .description, .template-event_summary_view #content .tileItem .description, .template-facetednavigation_view #content .tileItem .tileHeadline a, .template-facetednavigation_view #content .tileItem .description {
+    color: #172938;
+    font-family: Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.template-summary_view #content .tileItem .description, .template-event_summary_view #content .tileItem .description, .template-facetednavigation_view #content .tileItem .description {
+    line-height: 1.75em;
+}
+.template-summary_view #content .tileItem p, .template-event_summary_view #content .tileItem p, .template-facetednavigation_view #content .tileItem p {
+    margin: 0;
+    padding: 0;
+}
+.template-summary_view #content .tileItem .keywords, .template-event_summary_view #content .tileItem .keywords, .template-facetednavigation_view #content .tileItem .keywords {
+    color: #596e7f;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.3em;
+    margin: 15px 0 0;
+    padding: 0;
+}
+.template-summary_view #content .tileItem .documentByLine, .template-event_summary_view #content .tileItem .documentByLine, .template-facetednavigation_view #content .tileItem .documentByLine {
+    color: #596e7f;
+    font-family: "open_sansregular",Arial,Helvetica,sans-serif;
+    font-size: 1em;
+    left: 0;
+    margin: 2em 0 0;
+    min-height: 10.4em;
+    min-width: 7.5em;
+    padding: 0;
+    position: absolute;
+    top: 0;
+}
+.template-summary_view #content .tileItem:first-child .documentByLine, .template-event_summary_view #content .tileItem:first-child .documentByLine, .template-facetednavigation_view #content .tileItem:first-child .documentByLine {
+    margin-top: 0;
+}
+.template-summary_view #content .documentByLine .summary-view-icon, .template-event_summary_view #content .documentByLine .summary-view-icon, .template-facetednavigation_view #content .documentByLine .summary-view-icon {
+    color: #596e7f;
+    display: block;
+    font-family: "open_sansregular",Arial,Helvetica,sans-serif;
+    font-size: 1em;
+    line-height: 1.2em;
+    margin: 0 0 1em;
+}
+
+.template-summary_view #content-core, .template-event_summary_view #content-core, .template-facetednavigation_view #content-core .summary-view-date-to p {
+    margin: 2px 0;
+}
+
+/* fix css on twitter widget/tile */
+
+ul.css-tabs a {
+    height: 30px;
+}
+
+
+/* GovBR: - Azul
+   ========================================================================== */
+
+.govbr-azul .tile-subtitle { color: #0066cc; }
+.tile.govbr-azul h1, .tile.govbr-azul p { color: #0066cc; }
+.tile.govbr-azul .videogallery-tile{ background-color: #0066cc; }
+.tile.govbr-azul .audiogallery-tile h2 { color: #0066cc; }
+.tile.govbr-azul .mediacarousel.tile-content h2 { color: #0066cc; }
+.tile.govbr-azul div#em-destaque li#em-destaque-titulo { color: #0066cc; }
+
+.govbr-azul .tile-title,
+.govbr-azul .tile-header {
+    border-top: 4px solid #0066cc;
+    color: #0066cc;
+}
+
+.govbr-azul .tile-header span {
+    color: #0066cc;
+    margin-top: 1%;
+}
+
+.govbr-azul .outstanding-header {
+    min-height: 40px;
+    border-top: 2px solid #0066cc;
+    background: #eeeff1;
+}
+
+.govbr-azul .outstanding-header .outstanding-title {
+    border-color: #0066cc;
+    border-bottom: none;
+    background: #eeeff1;
+    color: #0066cc;
+}
+
+.govbr-azul .outstanding-header .outstanding-link {
+    background: url("++resource++brasil.gov.portal/img/seta_azul-escuro.png") no-repeat scroll right 5px transparent;
+}
+
+
+/* GovBR: - Verde
+   ========================================================================== */
+
+.govbr-verde .tile-subtitle { color: #33BB44; }
+.tile.govbr-verde h1, .tile.govbr-verde p { color: #33BB44; }
+.tile.govbr-verde .videogallery-tile{ background-color: #33BB44; }
+.tile.govbr-verde .audiogallery-tile h2 { color: #33BB44; }
+.tile.govbr-verde .mediacarousel.tile-content h2 { color: #33BB44; }
+.tile.govbr-verde div#em-destaque li#em-destaque-titulo { color: #33BB44; }
+
+.govbr-verde .tile-title,
+.govbr-verde .tile-header {
+    border-top: 4px solid #33BB44;
+    color: #33BB44;
+}
+
+.govbr-verde .tile-header span {
+    color: #33BB44;
+    margin-top: 1%;
+}
+
+.govbr-verde .outstanding-header {
+    min-height: 40px;
+    border-top: 2px solid #33BB44;
+    background: #eeeff1;
+}
+
+.govbr-verde .outstanding-header .outstanding-title {
+    border-color: #33BB44;
+    border-bottom: none;
+    background: #eeeff1;
+    color: #33BB44;
+}
+
+.govbr-verde .outstanding-header .outstanding-link {
+    background: url("++resource++brasil.gov.portal/img/seta_govbr-verde.png") no-repeat scroll right 5px transparent;
+}
+
+
+/* GovBR: - Amarelo
+   ========================================================================== */
+
+.govbr-amarelo .tile-subtitle { color: #FFCC00; }
+.tile.govbr-amarelo h1, .tile.govbr-amarelo p { color: #FFCC00; }
+.tile.govbr-amarelo .videogallery-tile{ background-color: #FFCC00; }
+.tile.govbr-amarelo .audiogallery-tile h2 { color: #FFCC00; }
+.tile.govbr-amarelo .mediacarousel.tile-content h2 { color: #FFCC00; }
+.tile.govbr-amarelo div#em-destaque li#em-destaque-titulo { color: #FFCC00; }
+
+.govbr-amarelo .tile-title,
+.govbr-amarelo .tile-header {
+    border-top: 4px solid #FFCC00;
+    color: #FFCC00;
+}
+
+.govbr-amarelo .tile-header span {
+    color: #FFCC00;
+    margin-top: 1%;
+}
+
+.govbr-amarelo .outstanding-header {
+    min-height: 40px;
+    border-top: 2px solid #FFCC00;
+    background: #eeeff1;
+}
+
+.govbr-amarelo .outstanding-header .outstanding-title {
+    border-color: #FFCC00;
+    border-bottom: none;
+    background: #eeeff1;
+    color: #FFCC00;
+}
+
+.govbr-amarelo .outstanding-header .outstanding-link {
+    background: url("++resource++brasil.gov.portal/img/seta_dourado.png") no-repeat scroll right 5px transparent;
+}
+
+element {
+}
+.galleria-info-description {
+    font: italic 12px/1.4 georgia, serif !important;
+    margin: 0 !important;
+    color: #060606 !important;
+}
+
+element {
+}
+
+dl.portalMessage, div.attention, div.caution, div.danger, div.error, div.hint, div.important, div.note, div.tip, div.warning {
+    font-size: 120%;
+}

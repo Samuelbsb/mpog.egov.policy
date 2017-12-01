@@ -1,0 +1,3 @@
+<p tal:define="url string:${context/portal_url}/fale-conosco/@@fale-conosco"
+   tal:content="python: request.response.redirect(url)">
+</p>

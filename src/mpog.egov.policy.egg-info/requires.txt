@@ -1,0 +1,3 @@
+plone.api
+setuptools
+z3c.jbot

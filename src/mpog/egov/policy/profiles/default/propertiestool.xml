@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<object name="portal_properties" meta_type="Plone Properties Tool">
+  <object name="site_properties" meta_type="Plone Property Sheet">
+    <property name="many_users" type="boolean">false</property>
+  </object>
+
+  <object name="brasil_gov" meta_type="Plone Property Sheet">
+    <property name="social_networks" type="lines">
+      <element value="twitter|egovbr"/>
+      <element value="youtube|egovbr"/>
+      <element value="flickr|site-feed/RSS"/>
+    </property>
+ </object>
+</object>
+
